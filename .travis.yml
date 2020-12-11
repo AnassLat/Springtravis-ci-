@@ -1,7 +1,4 @@
 language: java
 jdk:
   - openjdk15
-before_install:
-  - cd app
-install : mvn install
 script: ./mvnw clean install
